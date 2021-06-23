@@ -14,12 +14,12 @@ function markerSize(mag) {
 
 // Function to get color based on depth 
 function markerColor(depth) {
-  return depth > 90 ? '#b30000' :
-    depth > 70 ? '#e34a33' :
-      depth > 50 ? '#fc8d59' :
-        depth > 30 ? '#fdbb84' :
-          depth > 10 ? '#fdd49e' :
-            '#fef0d9'
+  return depth > 90 ? '#000088' :
+    depth > 70 ? '#3333CC' :
+      depth > 50 ? '#3366FF' :
+        depth > 30 ? '#6699FF' :
+          depth > 10 ? '#99CCFF' :
+             '#CCFFFF'
 };
 
 // Function to create map elements 
